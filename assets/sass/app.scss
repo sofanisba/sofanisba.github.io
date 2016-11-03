@@ -49,8 +49,8 @@ h1, h2, h3, h4, h5, h6 {
 .content {
   padding: 0 7% 0 7%;
   position:relative;
-  overflow-y: scroll;
-  height: 33rem;
+  overflow-y: auto;
+  height: 32rem;
 }
 
 #nav-column {
@@ -318,5 +318,8 @@ p.speech {
   }
   #small-links {
     font-size: .8rem;
+  }
+  .content {
+    height: 20rem;
   }
 }
