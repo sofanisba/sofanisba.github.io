@@ -50,7 +50,8 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 7% 0 7%;
   position:relative;
   overflow-y: auto;
-  height: 32rem;
+  height: 34rem;
+  margin-bottom: 5rem;
 }
 
 #nav-column {
@@ -308,6 +309,9 @@ p.speech {
   #card-content {
     width: 100%;
     float:clear;
+  }
+  .cat {
+    max-height: 1rem;
   }
 }
 
