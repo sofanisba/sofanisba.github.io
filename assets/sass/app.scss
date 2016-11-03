@@ -114,7 +114,7 @@ img.proj-img {
 }
 
 #card {
-  border: 2px solid green;
+  // border: 2px solid green;
   width: 98%;
   height: 80%;
 }
@@ -140,13 +140,14 @@ img#hi {
 
 #card-content {
   margin-left: 1rem;
-  width: 50%;
+  padding: .6rem;
+  width: 55%;
   height: 90%;
-  border: 2px solid red;
+  // border: 2px solid red;
   position: relative;
   display: inline-block;
+  float:right;
 }
-
 /*---------------------bubble links----------------------*/
 .bubble {
   min-width: 10rem;

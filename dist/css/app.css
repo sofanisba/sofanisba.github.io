@@ -87,7 +87,6 @@ img.proj-img {
     -moz-box-shadow: 4px 7px 15px 3px #1b1b1b; }
 
 #card {
-  border: 2px solid green;
   width: 98%;
   height: 80%; }
 
@@ -111,11 +110,12 @@ img#hi {
 
 #card-content {
   margin-left: 1rem;
-  width: 50%;
+  padding: .6rem;
+  width: 55%;
   height: 90%;
-  border: 2px solid red;
   position: relative;
-  display: inline-block; }
+  display: inline-block;
+  float: right; }
 
 /*---------------------bubble links----------------------*/
 .bubble {
