@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #stuff {
   width: 100vw;
-  height: 18vh;
+  height: 16vh;
   z-index: 0;
   position: absolute;
   background-color: #ff6f9e;
@@ -237,8 +237,8 @@ p.speech {
   #main {
     padding-top: 15vh; }
   #stuff {
-    height: 18vh;
-    padding-top: 11vh;
+    height: 20vh;
+    padding-top: 13vh;
     padding-right: 3vw; }
   #name {
     display: inline-block;
