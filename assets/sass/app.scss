@@ -114,7 +114,6 @@ img.proj-img {
 }
 
 #card {
-  // border: 2px solid green;
   width: 98%;
   height: 80%;
 }
@@ -135,7 +134,6 @@ img#hi {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
 }
 
 #card-content {
@@ -143,11 +141,11 @@ img#hi {
   padding: .6rem;
   width: 55%;
   height: 90%;
-  // border: 2px solid red;
   position: relative;
   display: inline-block;
   float:right;
 }
+
 /*---------------------bubble links----------------------*/
 .bubble {
   min-width: 10rem;
@@ -297,6 +295,18 @@ p.speech {
   }
   .bubble {
     display: none;
+  }
+  #card {
+    width: 100%;
+    height: 100%;
+  }
+  #card-img {
+    width: 10rem;
+    height: 12rem;
+  }
+  #card-content {
+    width: 100%;
+    float:clear;
   }
 }
 
