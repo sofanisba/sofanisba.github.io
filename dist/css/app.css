@@ -199,7 +199,8 @@ p.speech {
   float: right;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  z-index: 40; }
 
 .lnk-btn {
   position: relative;
