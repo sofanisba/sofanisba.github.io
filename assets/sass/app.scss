@@ -1,4 +1,4 @@
-$green: #87e4c5;
+$green: #98d8c3;
 $coral: #ff6f9e;
 $shadow-colour: #1b1b1b;
 $shadow: 2px 2px 10px 0px $shadow-colour;
@@ -46,11 +46,12 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 100%;
   max-height: 100%;
 }
+
 .content {
   padding: 0 7% 0 7%;
   position:relative;
   overflow-y: auto;
-  height: 34rem;
+  max-height: 75vh;
   margin-bottom: 5rem;
 }
 
@@ -311,9 +312,6 @@ p.speech {
     width: 100%;
     float:clear;
   }
-  .content {
-    height: 25rem;
-  }
 }
 
 @media (max-width: 320px) {
@@ -323,8 +321,5 @@ p.speech {
   }
   #small-links {
     font-size: .8rem;
-  }
-  .content {
-    height: 20rem;
   }
 }
