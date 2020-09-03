@@ -28,7 +28,7 @@
     "jshint": "^2.9.5"
   },
   "dependencies": {
-    "node-sass": "^3.8.0",
+    "node-sass": "^4.13.1",
     "npm": "^5.0.4"
   }
 }
